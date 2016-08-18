@@ -47,7 +47,7 @@
            sync-j="4" />
 
 <!-- from Bliss-x86 repository -->
-  <project path="build" name="build" remote="cng" revision="bliss-mm6.0-x86" >
+  <project path="build" name="build" remote="ej" revision="bliss-mm6.0-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="manifest" remote="ej" revision="bliss-mm6.0-x86" />
