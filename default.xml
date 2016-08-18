@@ -50,7 +50,7 @@
   <project path="build" name="build" remote="ej" revision="bliss-mm6.0-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="manifest" remote="ej" revision="bliss-mm6.0-x86" />
+  <project path="manifest" name="platform_manifest" remote="ej" revision="bliss-mm6.0-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="ej" revision="bliss-mm6.0-x86" />
   <project path="device/generic/common" name="device_generic_common" remote="ej" revision="bliss-mm6.0-x86" />
   <project path="frameworks/av" name="frameworks_av" remote="ej" revision="bliss-mm6.0-x86" />
