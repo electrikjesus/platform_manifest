@@ -71,7 +71,7 @@
   <project path="external/googleanalytics" name="external_googleanalytics" remote="x86" revision="marshmallow-x86" /> 
   <project path="external/libdrm" name="external_libdrm" remote="x86" revision="marshmallow-x86" />
   <project path="external/libpciaccess" name="external_libpciaccess" remote="x86" revision="marshmallow-x86" />
-  <project path="external/llvm" name="platform_external_llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project path="external/llvm" name="external_llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="external/mesa" name="mesa" remote="git" revision="11.1.2_marshmallow-x86_12-feb-2016" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/v86d" name="external_v86d" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
