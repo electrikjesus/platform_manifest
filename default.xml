@@ -28,6 +28,9 @@
 
   <remote name="x86" 
            fetch="https://github.com/android-x86-mirror" />
+           
+  <remote name="x862" 
+           fetch="git://gitscm.sf.net/gitroot/android-x86/" />
 
   <remote name="meijjaa"
            fetch="https://github.com/meijjaa" />
