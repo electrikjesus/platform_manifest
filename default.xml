@@ -30,7 +30,7 @@
            fetch="https://github.com/android-x86-mirror" />
            
   <remote name="x862" 
-           fetch="git://gitscm.sf.net/gitroot/android-x86/" />
+           fetch="http://git.code.sf.net/p/android-x86/" />
 
   <remote name="meijjaa"
            fetch="https://github.com/meijjaa" />
@@ -70,24 +70,24 @@
   <project path="external/bluetooth/sbc" name="platform_external_bluetooth_sbc" remote="x86" revision="marshmallow-x86" />
   <project path="external/busybox" name="platform_external_busybox" remote="x86" revision="marshmallow-x86" />
   <project path="external/drm_gralloc" name="platform_hardware_drm_gralloc" remote="x86" revision="marshmallow-x86" />
-  <project path="external/drm_hwcomposer" name="platform/external/drm/hwcomposer" groups="drm_hwcomposer" remote="x862" revision="marshmallow-x86" />
-  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x862" revision="marshmallow-x86" /> 
-  <project path="external/libdrm" name="platform/external/libdrm" remote="x862" revision="marshmallow-x86" />
+  <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" groups="drm_hwcomposer" remote="x862" revision="marshmallow-x86" />
+  <project path="external/googleanalytics" name="external_googleanalytics" remote="x862" revision="marshmallow-x86" /> 
+  <project path="external/libdrm" name="external_libdrm" remote="x862" revision="marshmallow-x86" />
   <project path="external/libpciaccess" name="platform_external_libpciaccess" remote="x86" revision="marshmallow-x86" />
   <project path="external/llvm" name="platform_external_llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="external/mesa" name="mesa" remote="git" revision="11.1.2_marshmallow-x86_12-feb-2016" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/v86d" name="platform_external_v86d" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x862" revision="marshmallow-x86" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="x862" revision="marshmallow-x86" />
   <project path="hardware/gps" name="platform_hardware_gps" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/intel/libsensors" name="platform_hardware_intel_libsensors" remote="x86" revision="marshmallow-x86"/>
   <project path="hardware/libaudio" name="platform_hardware_libaudio" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/libcamera" name="platform_hardware_libcamera" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/liblights" name="platform_hardware_liblights" remote="x86" revision="marshmallow-x86" />
   <!-- <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="marshmallow-x86" /> -->
-  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x862" revision="marshmallow-x86" />
+  <project path="hardware/x86power" name="hardware_x86power" remote="x862" revision="marshmallow-x86" />
   <project path="packages/apps/CMFileManager" name="platform_packages_apps_CMFileManager" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="platform_packages_apps_TSCalibration2" remote="x86" revision="marshmallow-x86" />
-  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x862" revision="marshmallow-x86" />
+  <project path="packages/services/Analytics" name="packages_services_Analytics" remote="x862" revision="marshmallow-x86" />
   
 <!-- from CyanogenMod-x86 repository -->
   <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
