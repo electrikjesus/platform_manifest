@@ -66,7 +66,7 @@
   <project path="external/bluetooth/bluez" name="external_bluetooth_bluez" remote="x86" revision="marshmallow-x86" />
   <project path="external/bluetooth/sbc" name="external_bluetooth_sbc" remote="x86" revision="marshmallow-x86" />
   <project path="external/busybox" name="external_busybox" remote="x86" revision="marshmallow-x86" />
-  <project path="external/drm_gralloc" name="hardware_drm_gralloc" remote="x86" revision="marshmallow-x86" />
+  <project path="external/drm_gralloc" name="external_drm_gralloc" remote="x86" revision="marshmallow-x86" />
   <project path="external/drm_hwcomposer" name="external_drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
   <project path="external/googleanalytics" name="external_googleanalytics" remote="x86" revision="marshmallow-x86" /> 
   <project path="external/libdrm" name="external_libdrm" remote="x86" revision="marshmallow-x86" />
