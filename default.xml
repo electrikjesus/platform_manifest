@@ -72,7 +72,7 @@
   <project path="external/libdrm" name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" remote="x86" revision="marshmallow-x86" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
-  <project path="external/mesa" name="maurossi/mesa" remote="git" revision="12.0.0rc4_marshmallow-x86" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/mesa" name="mesa" remote="git" revision="11.1.2_marshmallow-x86_12-feb-2016" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
