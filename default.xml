@@ -27,7 +27,7 @@
           fetch="https://bitbucket.org/" />
 
   <remote name="x86" 
-           fetch="http://git.code.sf.net/p/android-x86/" />
+           fetch="git://gitscm.sf.net/gitroot/android-x86/" />
 
   <remote name="meijjaa"
            fetch="https://github.com/meijjaa" />
