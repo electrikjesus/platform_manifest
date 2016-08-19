@@ -10,7 +10,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/electrikjesus/manifest.git -b bliss-mm6.0-x86
+    $ repo init -u https://github.com/electrikjesus/platform_manifest.git -b bliss-mm6.0-x86
 
 
 sync repo :
