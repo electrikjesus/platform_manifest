@@ -97,7 +97,7 @@
   <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0" />
-  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x862" revision="cm-13.0-x86" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="x862" revision="cm-13.0-x86" />
   <project path="system/core" name="android_system_core" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="system/extras" name="android_system_extras" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="system/vold" name="android_system_vold" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
