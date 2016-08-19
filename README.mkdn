@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/BlissRoms/platform_manifest/new-mm6.0/bliss-logo.png">
+<img src="https://raw.githubusercontent.com/electrikjesus/platform_manifest/bliss-mm6.0-x86/bliss-logo.png">
 
 Download the Bliss-x86 source code, based on Android-x86
 ---------------------------------------------------
