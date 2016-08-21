@@ -52,7 +52,7 @@
   </project>
   <project path="manifest" name="platform_manifest" remote="ej" revision="bliss-mm6.0-x86" />
   <project path="device/generic/x86" name="device_generic_x86" remote="ej" revision="bliss-mm6.0-x86" />
-  <project path="device/generic/common" name="device_generic_common" remote="ej" revision="bliss-mm6.0-x86" />
+  <project path="device/generic/common" name="device_generic_common-1" remote="ej" revision="marshmallow-x86" />
   <project path="frameworks/av" name="frameworks_av" remote="ej" revision="bliss-mm6.0-x86" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="ej" revision="bliss-mm6.0-x86" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="ej" revision="bliss-mm6.0-x86" groups="pdk" />
