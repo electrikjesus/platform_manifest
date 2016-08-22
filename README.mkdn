@@ -13,9 +13,9 @@ Repo initialization:
     $ repo init -u https://github.com/electrikjesus/platform_manifest.git -b bliss-mm6.0-x86
 
 
-sync repo :
+sync repo : (use -j1 due to Sourceforge constraints)
 
-    $ repo sync
+    $ repo sync -j1
 
 ***
 
