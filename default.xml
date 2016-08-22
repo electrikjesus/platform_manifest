@@ -26,8 +26,11 @@
   <remote name="bitbucket" 
           fetch="https://bitbucket.org/" />
 
-  <remote name="x86" 
+  <remote name="x862" 
            fetch="https://github.com/android-x86-mirror" />
+  
+  <remote name="x86" 
+           fetch="http://git.code.sf.net/p/android-x86/" />
 
   <remote name="meijjaa"
            fetch="https://github.com/meijjaa" />
