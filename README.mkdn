@@ -24,12 +24,13 @@ Building
 
 After the sync is finished, please read the [Building the image instructions from the Android-x86 site](http://www.android-x86.org/getsourcecode) on how to build.
 
-   $ . build/envsetup.sh
+    $ . build/envsetup.sh
+    $ lunch android_x86-eng
    
-   $ lunch android_x86-eng
+For ISO file -MBR bootloader
+
+    $ make iso_img 
    
-   For ISO file -MBR bootloader
-   $ make iso_img 
-   
-   For EFI img file -UEFI bootloader
-   $ make efi_img 
+For EFI img file -UEFI bootloader
+
+    $ make efi_img 
