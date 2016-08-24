@@ -28,4 +28,8 @@ After the sync is finished, please read the [Building the image instructions fro
    
    $ lunch android_x86-eng
    
-   $ make iso_img
+   For ISO file -MBR bootloader
+   $ make iso_img 
+   
+   For EFI img file -UEFI bootloader
+   $ make efi_img 
