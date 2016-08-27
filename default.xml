@@ -84,7 +84,7 @@
   <project path="hardware/libcamera" name="hardware_libcamera" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/liblights" name="hardware_liblights" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" groups="intel" remote="x86" revision="marshmallow-x86" />
-  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <!-- <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="x86" revision="marshmallow-x86" /> -->
   <project path="hardware/x86power" name="hardware_x86power" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="x86" revision="marshmallow-x86" />
