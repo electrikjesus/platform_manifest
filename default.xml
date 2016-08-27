@@ -84,24 +84,30 @@
   <project path="hardware/libcamera" name="hardware_libcamera" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/liblights" name="hardware_liblights" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/intel/audio_media" name="hardware_intel_audio_media" groups="intel" remote="x86" revision="marshmallow-x86" />
-  <!-- <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="x86" revision="marshmallow-x86" /> -->
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="hardware/x86power" name="hardware_x86power" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="x86" revision="marshmallow-x86" />
   <project path="packages/apps/TSCalibration2" name="packages_apps_TSCalibration2" remote="x86" revision="marshmallow-x86" />
   <project path="packages/services/Analytics" name="packages_services_Analytics" remote="x86" revision="marshmallow-x86" />
   
-<!-- from CyanogenMod-x86 repository -->
+<!-- BEGIN CYANOGENMOD-X86 -->
+  <project path="build" name="platform/build" groups="pdk" remote="x86" revision="cm-13.0-x86" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  <project path="device/generic/android_x86_64" name="device/generic/x86_64" groups="pdk" remote="x86" revision="cm13" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="frameworks/native" name="android_frameworks_native" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/intel/intel-driver" name="vaapi-intel-driver" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/intel/libva" name="vaapi-libva" remote="meijjaa" revision="cm-13.0-x86" />
   <project path="hardware/powerbtnd" name="powerbtnd" remote="meijjaa" revision="cm-13.0" />
-  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="x86" revision="cm-13.0-x86" />
-  <project path="system/core" name="android_system_core" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
-  <project path="system/extras" name="android_system_extras" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
-  <project path="system/vold" name="android_system_vold" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
+  <project path="packages/apps/Trebuchet" name="platform/packages/apps/Trebuchet" remote="x86" revision="cm-13.0-x86" />
+  <project path="system/core" name="android_system_core" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="system/extras" name="android_system_extras" remote="meijjaa" revision="cm-13.0-x86" />
+  <project path="system/vold" name="android_system_vold" remote="meijjaa" revision="cm-13.0-x86" />
+<!-- END CYANOGENMOD-X86 -->
+
   
 <!-- BEGIN BLISS -->
   <project path="external/chromium-webview" name="platform_external_chromium-webview" clone-depth="1" remote="BlissRoms" revision="mm6.0" />
@@ -354,7 +360,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
-  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
