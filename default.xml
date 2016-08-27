@@ -91,9 +91,6 @@
   <project path="packages/services/Analytics" name="packages_services_Analytics" remote="x86" revision="marshmallow-x86" />
   
 <!-- BEGIN CYANOGENMOD-X86 -->
-  <project path="build" name="platform/build" groups="pdk" remote="x86" revision="cm-13.0-x86" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="bionic" name="android_bionic" remote="meijjaa" groups="pdk" revision="cm-13.0-x86" />
   <project path="device/generic/android_x86_64" name="device/generic/x86_64" groups="pdk" remote="x86" revision="cm13" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="meijjaa" revision="cm-13.0-x86" />
